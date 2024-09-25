@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Wed Oct 04 02:23:36 2023">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="47f0cf9901c346c2bb77e526ca661ccd" type="ProjectID"/>
+<property name="ProjectIteration" value="11" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddSources" value="7" type="JavaHandler"/>
+<property name="AutoConnectTarget" value="1" type="JavaHandler"/>
+<property name="CloseProject" value="1" type="JavaHandler"/>
+<property name="EditDelete" value="2" type="JavaHandler"/>
+<property name="EditUndo" value="2" type="JavaHandler"/>
+<property name="LaunchProgramFpga" value="6" type="JavaHandler"/>
+<property name="NewProject" value="2" type="JavaHandler"/>
+<property name="OpenHardwareManager" value="2" type="JavaHandler"/>
+<property name="OpenProject" value="5" type="JavaHandler"/>
+<property name="RunBitgen" value="8" type="JavaHandler"/>
+<property name="RunImplementation" value="3" type="JavaHandler"/>
+<property name="RunSynthesis" value="12" type="JavaHandler"/>
+<property name="SaveFileProxyHandler" value="3" type="JavaHandler"/>
+<property name="ShowView" value="5" type="JavaHandler"/>
+<property name="ToggleViewNavigator" value="2" type="JavaHandler"/>
+<property name="ViewTaskImplementation" value="1" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="CANCEL, Cancel" value="1" type="GuiResourceData"/>
+<property name="Display_driver.vhd, 155, 112" value="1" type="GuiResourceData"/>
+<property name="Display_driver.vhd, 191, 204" value="1" type="GuiResourceData"/>
+<property name="Display_driver.vhd, 25, 20" value="1" type="GuiResourceData"/>
+<property name="Display_driver.vhd, 35, 20" value="1" type="GuiResourceData"/>
+<property name="FINISH, Finish" value="2" type="GuiResourceData"/>
+<property name="LEDdisplay.vhd, 176, 145" value="1" type="GuiResourceData"/>
+<property name="LEDdisplay.vhd, 196, 113" value="1" type="GuiResourceData"/>
+<property name="LEDdisplay.vhd, 251, 94" value="1" type="GuiResourceData"/>
+<property name="LEDdisplay.vhd, 31, 63" value="1" type="GuiResourceData"/>
+<property name="LEDdisplay.vhd, 470, 130" value="1" type="GuiResourceData"/>
+<property name="LEDdisplay.vhd, 482, 140" value="1" type="GuiResourceData"/>
+<property name="LEDdisplay.vhd, 513, 129" value="1" type="GuiResourceData"/>
+<property name="LEDdisplay.vhd, 533, 101, false, true, false, false, false" value="1" type="GuiResourceData"/>
+<property name="LEDdisplay.vhd, 533, 101, false, true, false, false, true" value="1" type="GuiResourceData"/>
+<property name="LEDdisplay.vhd, 54, 110" value="1" type="GuiResourceData"/>
+<property name="LEDdisplay.vhd, 543, 58" value="1" type="GuiResourceData"/>
+<property name="LEDdisplay.vhd, 56, 110" value="1" type="GuiResourceData"/>
+<property name="LEDdisplay.vhd, 68, 105" value="2" type="GuiResourceData"/>
+<property name="LEDdisplay.vhd, 70, 94" value="1" type="GuiResourceData"/>
+<property name="LEDdisplay.vhd, 72, 108" value="1" type="GuiResourceData"/>
+<property name="LEDdisplay.vhd, 73, 62" value="1" type="GuiResourceData"/>
+<property name="NEXT, Next " value="2" type="GuiResourceData"/>
+<property name="PAResourceAtoD.AddSrcWizard_SPECIFY_SIMULATION_SPECIFIC_HDL_FILES, Add or create simulation sources" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, toplevel" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_TYPE, VHDL, 3" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_ADD_SOURCES, Add Sources..." value="2" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_OPEN_PROJECT, Open Project..." value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_0_CRITICAL_WARNING, 2 critical warnings" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints], 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints], 1, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints], 2, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources], 0, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources], 0, false, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, LEDdisplay - structural (LEDdisplay.vhd" value="7" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Segment - Behavioral (Segment.vhd" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Syntax Error Files, Display_driver.vhd], 5, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Syntax Error Files, Display_driver.vhd], 5, false, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Syntax Error Files, Display_driver.vhd], 6, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Syntax Error Files, Display_driver.vhd], 6, false, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, bit_full_adder - Behavioral (bit_full_adder.vhd" value="4" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, display_driver - Behavioral (Display_driver.vhd" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, toplevel - Behavioral (toplevel.vhd" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1], 3, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources], 2" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources], 2, true" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources], 2, true, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources], 3" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager, Add Sources], 2, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.GettingStartedView_OPEN_PROJECT, Open Project" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_FILE, File" value="4" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, Open Recent File" value="2" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, Open Recent Project" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainToolbarMgr_OPEN, (String" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Analysis Results, sim_1, [HDL 9-806] Syntax error near 0. [C:/Users/zhenga6/CoCO/studio3/studio3.srcs/sim_1/new/toplevel.vhd:80]. ], 2, true" value="2" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Analysis Results, sim_1, [HDL 9-806] Syntax error near 0100100. [C:/Users/zhenga6/Downloads/Display_driver.vhd:5]. ], 2, false" value="3" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Analysis Results, sim_1, [HDL 9-806] Syntax error near AND. [C:/Users/zhenga6/CoCO/studio3/studio3.srcs/sim_1/new/bit_full_adder.vhd:46]. ], 2, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Analysis Results, sim_1, [HDL 9-806] Syntax error near end. [C:/Users/zhenga6/CoCO/studio3/studio3.srcs/sim_1/new/toplevel.vhd:112]. ], 2, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Analysis Results, sim_1, [HDL 9-849] Unexpected EOF. [C:/Users/zhenga6/Downloads/Display_driver.vhd:36]. ], 2, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Analysis Results, sim_1, [HDL 9-849] Unexpected EOF. [C:/Users/zhenga6/Downloads/Display_driver.vhd:36]. ], 3, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PAViews_CODE, Code" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, Add Files" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcChooserPanel_CREATE_FILE, Create File" value="1" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="4" type="GuiResourceData"/>
+<property name="RDIResourceCommand.RDICommands_DELETE, Remove File from Project..." value="1" type="GuiResourceData"/>
+<property name="bit_full_adder.vhd, 102, 196" value="1" type="GuiResourceData"/>
+<property name="bit_full_adder.vhd, 106, 64" value="1" type="GuiResourceData"/>
+<property name="bit_full_adder.vhd, 112, 165" value="1" type="GuiResourceData"/>
+<property name="bit_full_adder.vhd, 113, 182" value="1" type="GuiResourceData"/>
+<property name="bit_full_adder.vhd, 114, 112" value="1" type="GuiResourceData"/>
+<property name="bit_full_adder.vhd, 131, 174" value="1" type="GuiResourceData"/>
+<property name="bit_full_adder.vhd, 135, 166" value="1" type="GuiResourceData"/>
+<property name="bit_full_adder.vhd, 136, 115" value="1" type="GuiResourceData"/>
+<property name="bit_full_adder.vhd, 145, 194" value="1" type="GuiResourceData"/>
+<property name="bit_full_adder.vhd, 146, 198" value="1" type="GuiResourceData"/>
+<property name="bit_full_adder.vhd, 149, 202" value="1" type="GuiResourceData"/>
+<property name="bit_full_adder.vhd, 194, 148" value="1" type="GuiResourceData"/>
+<property name="bit_full_adder.vhd, 236, 200" value="1" type="GuiResourceData"/>
+<property name="bit_full_adder.vhd, 329, 164" value="1" type="GuiResourceData"/>
+<property name="bit_full_adder.vhd, 41, 110" value="1" type="GuiResourceData"/>
+<property name="bit_full_adder.vhd, 42, 98" value="1" type="GuiResourceData"/>
+<property name="bit_full_adder.vhd, 59, 143" value="1" type="GuiResourceData"/>
+<property name="bit_full_adder.vhd, 75, 59" value="1" type="GuiResourceData"/>
+<property name="bit_full_adder.vhd, 90, 131" value="1" type="GuiResourceData"/>
+<property name="bit_full_adder.vhd, 90, 148" value="1" type="GuiResourceData"/>
+<property name="bit_full_adder.vhd, 99, 76" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 102, 64" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 103, 163" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 105, 114" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 105, 130" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 105, 30" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 105, 48" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 106, 38" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 107, 112" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 108, 88" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 116, 194" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 117, 132" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 118, 158" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 12, 88" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 120, 145" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 120, 150" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 121, 177" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 126, 172" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 127, 122" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 127, 179" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 127, 81" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 127, 92" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 128, 130" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 128, 150" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 129, 179" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 130, 130" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 130, 74" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 131, 130" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 131, 158" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 133, 130" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 133, 161" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 134, 162" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 136, 94" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 138, 114" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 14, 91" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 140, 126" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 140, 202" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 144, 153" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 145, 44" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 146, 164" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 151, 125" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 153, 166" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 159, 131" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 159, 164" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 160, 166" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 161, 191" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 161, 198" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 161, 94" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 162, 107" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 164, 27" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 167, 164" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 174, 166" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 180, 174" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 181, 161" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 184, 130" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 189, 80" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 197, 100" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 199, 200" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 2, 126" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 20, 97" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 207, 112" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 209, 200" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 22, 93" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 220, 138" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 221, 196" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 223, 160" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 223, 26" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 226, 44" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 228, 93" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 23, 92" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 237, 151" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 25, 181" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 250, 130" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 251, 126" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 252, 186" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 26, 200" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 26, 99" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 27, 111" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 277, 143" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 28, 199" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 286, 122" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 286, 140" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 290, 142" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 3, 80" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 30, 99" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 31, 24" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 314, 30" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 318, 162" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 319, 29" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 323, 27" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 327, 28" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 329, 151" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 333, 112" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 333, 113" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 334, 194" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 336, 130" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 338, 38" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 358, 188" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 365, 108" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 39, 115" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 40, 114" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 437, 146" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 446, 189" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 47, 26" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 48, 141" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 49, 112" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 492, 184" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 52, 176" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 52, 176, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 54, 111" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 54, 116" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 570, 132" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 58, 114" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 58, 151" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 58, 27" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 60, 144" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 61, 125" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 61, 158" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 64, 119" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 65, 214" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 65, 24" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 65, 96" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 73, 106" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 73, 148" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 75, 94" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 76, 182" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 77, 159" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 80, 114" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 83, 62" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 83, 74" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 84, 116" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 86, 130" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 86, 93" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 88, 21" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 88, 56" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 89, 130" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 89, 24" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 91, 130" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 91, 150" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 92, 129" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 93, 147" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 94, 176" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 96, 182" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 96, 78" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 97, 106" value="1" type="GuiResourceData"/>
+<property name="toplevel.vhd, 99, 76" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="18" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="14" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>
