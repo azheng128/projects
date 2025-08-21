@@ -1,5 +1,5 @@
 Portfolio of Relevant Projects
 
-Minesweeper is in Java Processing
+Minesweeper implemented using Java Processing
 
-SpaceGame is in Python Pygame
+SpaceGame implemented using Python Pygame
